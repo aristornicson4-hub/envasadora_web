@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Envasadora Automática</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+
+    </div>
+
+
+    <!-- SISTEMA DA ENVASADORA -->
+    <div class="app">
+
+        <!-- aqui continua TODO o seu código atual -->
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+
+    <div class="app">
+
+        <header>
+            <h1>Envasadora</h1>
+            <p>Controle da máquina</p>
+        </header>
+
+        <main>
+
+            <div class="card">
+                <h2>Quantidade de líquido</h2>
+
+                <div class="valor">
+                    <span id="ml">500</span>
+                    <span>mL</span>
+                </div>
+
+                <input
+                    type="range"
+                    id="mlRange"
+                    min="50"
+                    max="2000"
+                    value="500"
+                >
+
+                <div class="range-info">
+                    <span>50 mL</span>
+                    <span>2000 mL</span>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <h2>Quantidade de ciclos</h2>
+
+                <div class="valor">
+                    <span id="ciclos">10</span>
+                </div>
+
+                <div class="botoes-ciclo">
+                    <button id="menos">−</button>
+                    <button id="mais">+</button>
+                </div>
+            </div>
+
+
+            <div class="status-card">
+
+                <p>Status da máquina</p>
+
+                <div id="status" class="status-parada">
+                    PARADA
+                </div>
+
+            </div>
+
+
+            <div class="botoes">
+
+                <button id="iniciar" class="btn-iniciar">
+                    INICIAR
+                </button>
+
+                <button id="parar" class="btn-parar">
+                    PARAR
+                </button>
+
+            </div>
+
+        </main>
+
+        <footer>
+            <p>Projeto Envasadora Automática com IoT</p>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
